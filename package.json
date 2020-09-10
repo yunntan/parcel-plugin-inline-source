@@ -1,29 +1,29 @@
 {
-    "name": "parcel-plugin-inline-source",
-    "description": "Inline all flagged js, css source files",
-    "version": "1.0.0",
-    "author": "xingqiao <cctshiyu@126.com>",
-    "keywords": [
-        "parcel",
-        "parcel-plugin",
-        "plugin",
-        "inline",
-        "inline-source",
-        "html",
-        "js",
-        "css"
-    ],
-    "dependencies": {
-        "inline-source": "^6.1.9"
-    },
-    "main": "index.js",
-    "scripts": {
-        "publish": "npm publish"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/xingqiao/parcel-plugin-inline-source.git"
-    },
-    "readmeFilename": "README.md",
-    "license": "MIT"
+	"name": "parcel-plugin-inline-source",
+	"description": "Inline all flagged js, css source files",
+	"version": "1.0.0",
+	"author": "Simon Buisson",
+	"keywords": [
+		"parcel",
+		"parcel-plugin",
+		"plugin",
+		"inline",
+		"inline-source",
+		"html",
+		"js",
+		"css"
+	],
+	"dependencies": {
+		"inline-source": "^6.1.9"
+	},
+	"main": "index.js",
+	"scripts": {
+		"publish": "npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yunntan/parcel-plugin-inline-source"
+	},
+	"readmeFilename": "README.md",
+	"license": "MIT"
 }
