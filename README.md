@@ -3,12 +3,14 @@
 <!-- [![NPM Version](https://img.shields.io/npm/v/parcel-plugin-inline-source.svg?style=flat-square)](https://www.npmjs.com/package/parcel-plugin-inline-source)
 [![NPM Downloads](https://img.shields.io/npm/dm/parcel-plugin-inline-source.svg?style=flat-square)](https://www.npmjs.com/package/parcel-plugin-inline-source) -->
 
-> Based on inline-source implementation，Add the ìnline attribute to <script> and <link> tags，and when parcel build is ran it will automatically inline the contents and delete the source files.
+> Based on inline-source implementation，Add the ìnline attribute to `<script>` and `<link>` tags，and when parcel build is ran it will automatically inline the contents and delete the source files.
+
+**Fork of https://www.npmjs.com/package/parcel-plugin-inline-source removing the condition on `NODE_ENV === "production"`.**
 
 ## Install
 
 ```bash
-$ npm install parcel-plugin-inline-source --save-dev
+$ npm install @simonb04/parcel-plugin-inline-source --save-dev
 ```
 
 ## How it works
